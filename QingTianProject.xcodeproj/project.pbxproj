@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B74266EF187D18180004E838 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74266EE187D18180004E838 /* UIKit.framework */; };
+		B74266F1187D18180004E838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74266F0187D18180004E838 /* Foundation.framework */; };
+		B74266F3187D18180004E838 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74266F2187D18180004E838 /* CoreGraphics.framework */; };
+		B74266F9187D18180004E838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B74266F7187D18180004E838 /* InfoPlist.strings */; };
+		B74266FB187D18180004E838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B74266FA187D18180004E838 /* main.m */; };
+		B74266FF187D18180004E838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B74266FE187D18180004E838 /* AppDelegate.m */; };
+		B7426701187D18180004E838 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B7426700187D18180004E838 /* Default.png */; };
+		B7426703187D18180004E838 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7426702187D18180004E838 /* Default@2x.png */; };
+		B7426705187D18180004E838 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7426704187D18180004E838 /* Default-568h@2x.png */; };
+		B7426708187D18180004E838 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7426707187D18180004E838 /* ViewController.m */; };
+		B742670B187D18180004E838 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7426709187D18180004E838 /* ViewController.xib */; };
+		B7426714187D18880004E838 /* ZUUIRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7426713187D18880004E838 /* ZUUIRevealController.m */; };
+		B7426718187D18EA0004E838 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7426717187D18EA0004E838 /* RootViewController.m */; };
+		B742671C187D1A0D0004E838 /* LeftMenueController.m in Sources */ = {isa = PBXBuildFile; fileRef = B742671B187D1A0D0004E838 /* LeftMenueController.m */; };
+		B742671F187D1B1F0004E838 /* CustomContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = B742671E187D1B1E0004E838 /* CustomContentController.m */; };
+		B7426727187D2CC50004E838 /* 设置.png in Resources */ = {isa = PBXBuildFile; fileRef = B7426721187D2CC50004E838 /* 设置.png */; };
+		B7426728187D2CC50004E838 /* 首页.png in Resources */ = {isa = PBXBuildFile; fileRef = B7426722187D2CC50004E838 /* 首页.png */; };
+		B7426729187D2CC50004E838 /* 直播.png in Resources */ = {isa = PBXBuildFile; fileRef = B7426723187D2CC50004E838 /* 直播.png */; };
+		B742672A187D2CC50004E838 /* 新闻.png in Resources */ = {isa = PBXBuildFile; fileRef = B7426724187D2CC50004E838 /* 新闻.png */; };
+		B742672B187D2CC50004E838 /* 点播.png in Resources */ = {isa = PBXBuildFile; fileRef = B7426725187D2CC50004E838 /* 点播.png */; };
+		B742672C187D2CC50004E838 /* 报料.png in Resources */ = {isa = PBXBuildFile; fileRef = B7426726187D2CC50004E838 /* 报料.png */; };
+		B742672E187D30740004E838 /* leftViewBg.png in Resources */ = {isa = PBXBuildFile; fileRef = B742672D187D30740004E838 /* leftViewBg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B74266EB187D18180004E838 /* QingTianProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QingTianProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74266EE187D18180004E838 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B74266F0187D18180004E838 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B74266F2187D18180004E838 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B74266F6187D18180004E838 /* QingTianProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QingTianProject-Info.plist"; sourceTree = "<group>"; };
+		B74266F8187D18180004E838 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B74266FA187D18180004E838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B74266FC187D18180004E838 /* QingTianProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QingTianProject-Prefix.pch"; sourceTree = "<group>"; };
+		B74266FD187D18180004E838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B74266FE187D18180004E838 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7426700187D18180004E838 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B7426702187D18180004E838 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B7426704187D18180004E838 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B7426706187D18180004E838 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7426707187D18180004E838 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B742670A187D18180004E838 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B7426712187D18880004E838 /* ZUUIRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZUUIRevealController.h; sourceTree = "<group>"; };
+		B7426713187D18880004E838 /* ZUUIRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZUUIRevealController.m; sourceTree = "<group>"; };
+		B7426716187D18EA0004E838 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B7426717187D18EA0004E838 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B742671A187D1A0D0004E838 /* LeftMenueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenueController.h; sourceTree = "<group>"; };
+		B742671B187D1A0D0004E838 /* LeftMenueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenueController.m; sourceTree = "<group>"; };
+		B742671D187D1B1E0004E838 /* CustomContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomContentController.h; sourceTree = "<group>"; };
+		B742671E187D1B1E0004E838 /* CustomContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomContentController.m; sourceTree = "<group>"; };
+		B7426721187D2CC50004E838 /* 设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置.png"; sourceTree = "<group>"; };
+		B7426722187D2CC50004E838 /* 首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页.png"; sourceTree = "<group>"; };
+		B7426723187D2CC50004E838 /* 直播.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "直播.png"; sourceTree = "<group>"; };
+		B7426724187D2CC50004E838 /* 新闻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新闻.png"; sourceTree = "<group>"; };
+		B7426725187D2CC50004E838 /* 点播.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点播.png"; sourceTree = "<group>"; };
+		B7426726187D2CC50004E838 /* 报料.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "报料.png"; sourceTree = "<group>"; };
+		B742672D187D30740004E838 /* leftViewBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftViewBg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B74266E8187D18180004E838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74266EF187D18180004E838 /* UIKit.framework in Frameworks */,
+				B74266F1187D18180004E838 /* Foundation.framework in Frameworks */,
+				B74266F3187D18180004E838 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B74266E2187D18180004E838 = {
+			isa = PBXGroup;
+			children = (
+				B74266F4187D18180004E838 /* QingTianProject */,
+				B74266ED187D18180004E838 /* Frameworks */,
+				B74266EC187D18180004E838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B74266EC187D18180004E838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B74266EB187D18180004E838 /* QingTianProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B74266ED187D18180004E838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B74266EE187D18180004E838 /* UIKit.framework */,
+				B74266F0187D18180004E838 /* Foundation.framework */,
+				B74266F2187D18180004E838 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B74266F4187D18180004E838 /* QingTianProject */ = {
+			isa = PBXGroup;
+			children = (
+				B7426711187D184C0004E838 /* ZUUIRevealController */,
+				B7426715187D18AF0004E838 /* 菜单 */,
+				B74266FD187D18180004E838 /* AppDelegate.h */,
+				B74266FE187D18180004E838 /* AppDelegate.m */,
+				B7426706187D18180004E838 /* ViewController.h */,
+				B7426707187D18180004E838 /* ViewController.m */,
+				B7426709187D18180004E838 /* ViewController.xib */,
+				B74266F5187D18180004E838 /* Supporting Files */,
+			);
+			path = QingTianProject;
+			sourceTree = "<group>";
+		};
+		B74266F5187D18180004E838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7426720187D2CA80004E838 /* MenueIMages */,
+				B74266F6187D18180004E838 /* QingTianProject-Info.plist */,
+				B74266F7187D18180004E838 /* InfoPlist.strings */,
+				B74266FA187D18180004E838 /* main.m */,
+				B74266FC187D18180004E838 /* QingTianProject-Prefix.pch */,
+				B7426700187D18180004E838 /* Default.png */,
+				B7426702187D18180004E838 /* Default@2x.png */,
+				B7426704187D18180004E838 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7426711187D184C0004E838 /* ZUUIRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				B7426712187D18880004E838 /* ZUUIRevealController.h */,
+				B7426713187D18880004E838 /* ZUUIRevealController.m */,
+			);
+			name = ZUUIRevealController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B7426715187D18AF0004E838 /* 菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				B7426716187D18EA0004E838 /* RootViewController.h */,
+				B7426717187D18EA0004E838 /* RootViewController.m */,
+				B742671A187D1A0D0004E838 /* LeftMenueController.h */,
+				B742671B187D1A0D0004E838 /* LeftMenueController.m */,
+				B742671D187D1B1E0004E838 /* CustomContentController.h */,
+				B742671E187D1B1E0004E838 /* CustomContentController.m */,
+			);
+			name = "菜单";
+			sourceTree = "<group>";
+		};
+		B7426720187D2CA80004E838 /* MenueIMages */ = {
+			isa = PBXGroup;
+			children = (
+				B742672D187D30740004E838 /* leftViewBg.png */,
+				B7426721187D2CC50004E838 /* 设置.png */,
+				B7426722187D2CC50004E838 /* 首页.png */,
+				B7426723187D2CC50004E838 /* 直播.png */,
+				B7426724187D2CC50004E838 /* 新闻.png */,
+				B7426725187D2CC50004E838 /* 点播.png */,
+				B7426726187D2CC50004E838 /* 报料.png */,
+			);
+			name = MenueIMages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B74266EA187D18180004E838 /* QingTianProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B742670E187D18180004E838 /* Build configuration list for PBXNativeTarget "QingTianProject" */;
+			buildPhases = (
+				B74266E7187D18180004E838 /* Sources */,
+				B74266E8187D18180004E838 /* Frameworks */,
+				B74266E9187D18180004E838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QingTianProject;
+			productName = QingTianProject;
+			productReference = B74266EB187D18180004E838 /* QingTianProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B74266E3187D18180004E838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Devil;
+			};
+			buildConfigurationList = B74266E6187D18180004E838 /* Build configuration list for PBXProject "QingTianProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B74266E2187D18180004E838;
+			productRefGroup = B74266EC187D18180004E838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B74266EA187D18180004E838 /* QingTianProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B74266E9187D18180004E838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74266F9187D18180004E838 /* InfoPlist.strings in Resources */,
+				B7426701187D18180004E838 /* Default.png in Resources */,
+				B7426703187D18180004E838 /* Default@2x.png in Resources */,
+				B7426705187D18180004E838 /* Default-568h@2x.png in Resources */,
+				B742670B187D18180004E838 /* ViewController.xib in Resources */,
+				B7426727187D2CC50004E838 /* 设置.png in Resources */,
+				B7426728187D2CC50004E838 /* 首页.png in Resources */,
+				B7426729187D2CC50004E838 /* 直播.png in Resources */,
+				B742672A187D2CC50004E838 /* 新闻.png in Resources */,
+				B742672B187D2CC50004E838 /* 点播.png in Resources */,
+				B742672C187D2CC50004E838 /* 报料.png in Resources */,
+				B742672E187D30740004E838 /* leftViewBg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B74266E7187D18180004E838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74266FB187D18180004E838 /* main.m in Sources */,
+				B74266FF187D18180004E838 /* AppDelegate.m in Sources */,
+				B7426708187D18180004E838 /* ViewController.m in Sources */,
+				B7426714187D18880004E838 /* ZUUIRevealController.m in Sources */,
+				B7426718187D18EA0004E838 /* RootViewController.m in Sources */,
+				B742671C187D1A0D0004E838 /* LeftMenueController.m in Sources */,
+				B742671F187D1B1F0004E838 /* CustomContentController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B74266F7187D18180004E838 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74266F8187D18180004E838 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7426709187D18180004E838 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B742670A187D18180004E838 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B742670C187D18180004E838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B742670D187D18180004E838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B742670F187D18180004E838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QingTianProject/QingTianProject-Prefix.pch";
+				INFOPLIST_FILE = "QingTianProject/QingTianProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7426710187D18180004E838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QingTianProject/QingTianProject-Prefix.pch";
+				INFOPLIST_FILE = "QingTianProject/QingTianProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B74266E6187D18180004E838 /* Build configuration list for PBXProject "QingTianProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B742670C187D18180004E838 /* Debug */,
+				B742670D187D18180004E838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B742670E187D18180004E838 /* Build configuration list for PBXNativeTarget "QingTianProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B742670F187D18180004E838 /* Debug */,
+				B7426710187D18180004E838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B74266E3187D18180004E838 /* Project object */;
+}
